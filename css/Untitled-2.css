@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face{
+	font-family: Merriwhather Sans;
+    src:url("../Fonts/Merriweather_Sans/MerriweatherSans-Regular.ttf")
+}
+@font-face{
+	font-family: Merriwhather SansBold;
+    src:url("../Fonts/Merriweather_Sans/MerriweatherSans-Bold.ttf");
+}
+#headId {
+	background-repeat: no-repeat; 
+	background-size:cover;
+	background-position: center;	
+	background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url("../Images/Main.jpg");;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#body{
+	
+	margin: 0px;
+}
+.navlebelsSB{
+	
+  color: white;
+  font-family:Merriwhather Sans;
+  font-size: 20px;
+  margin-top: 75px;
+}
+.navlebels{
+	
+  color: white;
+  font-family:Merriweather Sans;
+  font-size: 14.4px;
+  padding: 10px;
+}
+.nav1{
+	display: inline-block;
+	padding-top: 25px;
+	margin-left: 200px;
+	
+	
+}
+.nav2{
+	
+	float: right;
+	padding-top: 25px;
+	margin-right: 200px;
+}
+
+#Headingmain{
+	text-align: center;
+	color: white;
+	font-family:Merriwhather SansBold; 
+	font-size: 56px;
+	margin-top: 200px;
+}
+#headingSmall{
+	text-align: center;
+	color: white;
+	font-family:Merriwhather SansBold; 
+	font-size: 18.5px;
+	margin-top: 30px;
+}
+#btnFOM{
+	
+	font-family:Merriwhather Sans; 
+	color: white;
+	font-size: 13.6px;
+	height: 60px;
+	width: 184.5px;
+    border-radius: 30px;
+	background-color:#F4623A;
+	border: none;
+		outline: none;
+
+}
+#btnFOM:hover{
+	background-color:#E44603;
+		outline: none;
+
+}
+#btndiv{
+	
+	padding-top: 40px;
+	padding-bottom: 170px;
+}
+#section1{
+	background-color: #F4623A;
+}
+#div1sec1{
+	
+	color: white;
+	font-family:Merriwhather Sans;
+	font-size: 32px;
+	padding-top: 130px;
+	padding-bottom: 20px;
+}
+#div2sec1{
+	color: white;
+	font-family:Merriwhather;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+#btnGS{
+	font-family:Merriwhather Sans; 
+	color: black;
+	font-size: 13.6px;
+	height: 60px;
+	width: 170px;
+    border-radius: 30px;
+	background-color:#FFFFFF;
+	border: none;
+		outline: none;
+
+}
+#btnGS:hover{
+	background-color:#C6C6C6;
+		outline: none;
+
+}
+
+
+#btndiv2{
+	
+	padding-top: 10px;
+	padding-bottom: 125px;
+}
+#sec2div1{
+	
+	font-family:Merriwhather Sans; 
+	color: black;
+	font-size: 32px;
+	padding-top: 150px;
+	padding-bottom: 20px;
+}
+#sec2span{
+	padding-top: 50px;
+}
+.divsec2inner1{
+	font-size: 24px;
+	font-family: Merriwhather Sans;
+	color: black;
+	padding-top: 25px;
+	padding-bottom: 8px;
+	
+}
+.divsec2inner2{
+	font-size: 16px;
+	font-family: Merriwhather;
+	padding-bottom: 75px;
+	color: #7D7C7C
+}
+.container{
+	padding-top: 75px;
+	display: flex;
+	padding-left: 150px;
+}
+.sec2spandiv{
+	padding: 50px;
+}
+.container2{
+	display: flex;
+	padding: 0px;
+	height: 272px;
+}
+#btnDN{
+	
+	font-family:Merriwhather Sans; 
+	color: black;
+	font-size: 13.6px;
+	height: 60px;
+	width: 184.5px;
+    border-radius: 30px;
+	background-color:#FFFFFF;
+	border: none;
+	outline: none;
+}
+#btnDN:hover{
+	background-color:#C6C6C6;
+	
+	outline: none;
+}
+#seclast{
+	background-color: #343A40;
+}
+#divseclast{
+	padding-top: 100px;
+	font-family:Merriwhather Sans; 
+	font-size: 32px;
+	color: white;
+}
+#seclastbtn{
+	padding-top: 30px;
+	padding-bottom: 140px;
+}
+#footerdiv{
+	padding-top: 100px;
+	font-size: 32px;
+	font-family:Merriwhather Sans; 
+	color: black;
+		padding-bottom: 20px;	
+}
+#footerdiv1{
+	
+	padding-top: 20px;
+	font-size: 16px;
+	font-family:Merriwhather; 
+	color: black;
+	padding-bottom: 50px;
+	
+}
+#last{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f8f9fa;
+	color: #6c757d;
+	font-size: 16px;
+	
+}
+.icon{
+	color :#f4623a;
+}
+.Navmain{
+	
+	 position:sticky;
+     top:0;
+	 background-color: black;
+     padding-bottom: 20px;
+		 
+}
